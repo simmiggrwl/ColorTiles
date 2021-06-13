@@ -1,5 +1,4 @@
 
-      
     body {  
       height: 100%;  
       background-image: linear-gradient(white, lightblue);  
@@ -8,6 +7,43 @@
       align-items: center;   
       flex-direction: column;  
     }  
+
+    .level {  
+      margin-top: 15px;  
+      display: flex;  
+      justify-content: space-between;  
+    }
+
+    #easy{
+      margin:10px
+    }
+
+    #med{
+      margin:10px
+    }
+
+    #hard{
+      margin:10px
+    }
+
+    .level button{
+      border: none;  
+      font-size: 20px;  
+      font-weight: bold;  
+      border-radius: 5px;  
+      box-shadow: 0 1px 4px;  
+      padding: 5px;  
+      width: 100px;  
+      background-color: palevioletred;  
+      color: black;  
+      outline: none;  
+      cursor: pointer; 
+    }
+
+    .level button:hover {  
+      color: white;  
+      background-color: darkmagenta;  
+    } 
       
     .game {    
       width: 420px;
@@ -16,6 +52,30 @@
       background-color:lightskyblue;  
       border-radius: 5px;  
     }  
+
+    .grid16{
+      display: grid; 
+      justify-content: center; 
+      grid-template-columns: 60px 60px 60px 60px;  
+      grid-template-rows: 60px 60px 60px 60px;  
+      margin-bottom: 10px;
+    }
+
+    .grid36 button {    
+      outline: black;  
+      cursor: pointer;  
+    }  
+
+    .grid16 button {    
+      outline: black;    
+    }  
+
+    .grid36{
+      display: grid; 
+      justify-content: center; 
+      grid-template-columns: 60px 60px 60px 60px 60px 60px;  
+      grid-template-rows: 60px 60px 60px 60px 60px 60px;  
+    }
       
     .grid {  
       display: grid; 
