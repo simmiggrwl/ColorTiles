@@ -137,6 +137,6 @@ startbtn.addEventListener('click', blanktile);
 startbtn.addEventListener('click', disablebutton);
 resetbtn.addEventListener('click', resetpage);
 movetilebtn.addEventListener('click', (e) => {
-    movetile(e.originalTarget.className);
+    movetile(e.target.className);
 });
 
